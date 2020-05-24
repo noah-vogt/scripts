@@ -23,10 +23,10 @@ elif argv[1]=="0":
 else:
     seconds, stop_cmd = int(argv[1]), False
 
-# Define colors for bash shell
-minecraft_to_terminal_colors = { "§0": "\\e[30m", "§1": "\\e[34m", "§2":"\\e[32m", "§2":"\\e[36m", "§4":"\\e[31m", "§5":"\\e[35m", "§6":"\\e[33m",
-    "§7":"\\e[37m", "§8":"\\e[90m","§9":"\\e[94m", "§a":"\\e[92m", "§b":"\\e[96m", "§c":"\\e[91m", "§d":"\\e[95m", "§e":"\\e[93m", "§f":"\\e[97m",
-    "§r":""} # WARNING: "§r" gets removed and font styles are not integrated
+# Define colors for bash shell, WARNING: "§r" gets removed and font styles are not integrated
+minecraft_to_terminal_colors = { "§0": "\\e[30m", "§1": "\\e[34m", "§2":"\\e[32m", "§2":"\\e[36m", "§4":"\\e[31m",
+    "§5":"\\e[35m", "§6":"\\e[33m", "§7":"\\e[37m", "§8":"\\e[90m","§9":"\\e[94m", "§a":"\\e[92m", "§b":"\\e[96m",
+    "§c":"\\e[91m", "§d":"\\e[95m", "§e":"\\e[93m", "§f":"\\e[97m", "§r":""}
 
 # first cleanup if sleep timer given
 if not(stop_cmd):
