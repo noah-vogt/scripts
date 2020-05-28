@@ -48,7 +48,7 @@ minecraft_to_terminal_colors={ "§0": "\\e[30m", "§1": "\\e[34m", "§2":"\\e[32
 
 while True:
     # clear everything
-    # system("clear")
+    system("clear")
 
     # try to get query
     try:
