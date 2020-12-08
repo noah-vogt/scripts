@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# WARNING: THIS PROGRAM ISN'T FUNCTIONAL AS OF RIGHT NOW
+
 # WARNING: Only on GNU/Linux you see the colors of this script,
 # because it is using the standard bash shell color formatting
 
